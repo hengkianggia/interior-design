@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- GOOGLE POPPINS FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+
+  <title>Interior Design Website</title>
+
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="font-poppins overflow-x-hidden">
+  <nav class="mt-8 md:mt-10 bg-white mx-4 md:mx-12 lg:mx-24 flex lg:max-w-[1300px] justify-between items-center">
+    <h1
+      class="text-xl md:text-2xl lg:text-3xl font-bold tracking-widest text-grayscale-50% hover:tracking-big transition-all">
+      PNGKY</h1>
+    <div class="burger w-8 h-6 flex flex-col justify-between md:hidden">
+      <span class="w-full h-1 bg-black rounded-xl"></span>
+      <span class="w-full h-1 bg-black rounded-xl"></span>
+      <span class="w-full h-1 bg-black rounded-xl"></span>
+    </div>
+    <div id="listitem"
+      class="w-10/12 md:w-7/12 lg:w-7/12 inset-0 bg-primary md:bg-white absolute md:relative flex flex-col md:flex-row justify-center md:justify-between gap-3 items-center text-xl md:text-sm lg:text-lg font-semibold md:font-normal text-white md:text-grayscale-50% hidden md:flex">
+      <a href="./home.html" class="font-semibold hover:scale-125 transition-all">Home</a>
+      <a href="./pages/about-us.html" class="hover:scale-125 transition-all">About Us</a>
+      <a href="./pages/services.html" class="hover:scale-125 transition-all">Services</a>
+      <a href="./pages/our-teams.html" class="hover:scale-125 transition-all">Our Teams</a>
+      <a href="./pages/contact.html"
+        class="bg-white lg:bg-primary text-primary lg:text-white text-base px-3 py-2 relative md:hidden lg:inline  hover:bg-white hover:text-primary hover:shadow-md lg:font-bold transition-all">Contact
+        Us</a>
+    </div>
+  </nav>
+
+  <header class="mx-4 md:mx-12 lg:mx-24 my-14 md:my-20 lg:mt-28 flex flex-col md:relative lg:max-w-[1300px]">
+    <h1
+      class="text-5xl lg:text-6xl font-bold w-10/12 md:w-7/12 lg:w-6/12 text-grayscale-50% mb-3 md:leading-[65px] lg:leading-[75px]">
+      Design your interor with
+      high quality.</h1>
+    <div class="line w-9/12 md:w-6/12 lg:w-7/12 h-[2px] bg-grayscale-50% md:absolute md:right-0 md:top-8 lg:top-10">
+    </div>
+    <p
+      class="text-xs text-grayscale-50% top-20 relative font-bold md:font-light md:absolute md:-right-10 md:top-32 md:-rotate-90">
+      2022 <br>
+      ALL RIGHT RESERVED</p>
+    <div
+      class="bg-primary w-9/12 md:w-3/12 lg:w-2/12 text-white shadow-lg px-4 py-9 md:py-12 lg:py-16 flex flex-col gap-6 md:gap-10 lg:gap-16 items-center place-self-center mt-24 md:-mt-32 lg:-mt-40 md:ml-96 lg:ml-[620px]">
+      <div class="grid place-items-center">
+        <h1 class="text-3xl mb-2">350+</h1>
+        <p class="md:text-xs md:text-center">Project Completed</p>
+      </div>
+      <div class="grid place-items-center">
+        <h1 class="text-3xl mb-2">23+</h1>
+        <p class="md:text-xs md:text-center">Proffesional Teams</p>
+      </div>
+      <div class="grid place-items-center">
+        <h1 class="text-3xl mb-2">150+</h1>
+        <p class="md:text-xs md:text-center">Year Experience</p>
+      </div>
+    </div>
+    <div
+      class="image w-full ml-4 md:ml-0 h-96 md:h-72 lg:h-96 bg-cover bg-center absolute inset-0 -z-10 top-56 lg:top-64"
+      style="background-image: url(../asset/HOME/1a.svg);"></div>
+  </header>
+
+  <div class="about my-16 md:my-32 lg:mt-52 mx-4 md:mx-12 lg:mx-24 text-grayscale-50% md:relative">
+    <h1 class="text-xl font-semibold">About</h1>
+    <div class="line w-8/12 md:w-5/12 h-[2px] bg-grayscale-50% mb-3 md:absolute md:left-20 md:top-4"></div>
+    <h1 class="text-2xl lg:text-3xl w-11/12 lg:w-full md:mt-5">“We're one of the best furniture agency. Prioritizing
+      customers and making
+      purchases
+      easy are the hallmarks of
+      our
+      agency.”</h1>
+    <div class="relative md:flex md:justify-between mt-5 lg:mt-10">
+      <div class="image w-10/12 md:w-9/12 h-80 lg:h-[430px] bg-cover bg-center md:abs"
+        style="background-image: url(../asset/HOME/2a.svg);">
+      </div>
+      <div class="w-full md:w-3/12 md:grid md:place-items-center">
+        <div
+          class="w-7/12 md:w-3/12 lg:w-2/12 h-28 md:h-16 lg:h-20 bg-white shadow-md absolute inset-0 flex flex-col md:flex-row justify-center md:gap-4 items-center top-6 md:top-5 lg:top-10 left-32 md:left-[490px] lg:left-[800px]">
+          <div class="w-10 h-10 bg-cover bg-center rounded-full mb-3"
+            style="background-image: url(../asset/HOME/me.jpg);">
+          </div>
+          <div class="text-xs font-light grid place-items-center">
+            <p>Hengki Anggia</p>
+            <p>CEO Of PNGKY</p>
+          </div>
+        </div>
+        <div
+          class="mt-5 text-grayscale-30% w-11/12 lg:w-9/12 text-end md:text-center lg:text-start md:text-xs lg:text-sm md:font-light lg:mt-16">
+          <p>Online learning with us does not interfere with your daily life. because learning can be done anytime and
+            anywhere.</p>
+          <a href="./portofolio.html"
+            class="px-3 py-2 bg-primary hover:bg-white hover:shadow-md text-sm text-white hover:text-primary transition-all relative top-5">Learn
+            More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-20 md:my-0 md:-mt-10 mx-4 md:mx-12 lg:mx-24 text-grayscale-50% relative">
+    <h1 class="text-xl font-semibold">Service</h1>
+    <div class="line w-8/12 md:w-5/12 h-[2px] bg-grayscale-50% mb-3 md:absolute md:top-4 md:left-20"></div>
+    <h1 class="text-2xl lg:text-3xl w-11/12 mb-5 md:mt-3">"attractive furniture with the best quality."</h1>
+    <p class="w-9/12 md:w-5/12 lg:w-4/12 text-xs lg:text-sm font-normal text-grayscale-30%">Customize your interior
+      design into a dream place
+      with the
+      best
+      designers and quality furniture. We try our best to
+      fulfill your expectations.</p>
+    <div
+      class="w-full md:w-9/12 py-8 md:py-5 lg:py-10 px-5 md:px-0 md:pr-7 my-5 flex flex-col gap-4 lg:gap-8 font-semibold bg-primary md:bg-white shadow-md md:shadow-none text-white md:text-grayscale-50%">
+      <div class="flex justify-between w-full items-center">
+        <h1> 01. Interior Design</h1>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+      <div class="flex justify-between w-full items-center">
+        <h1> 02. Consultant</h1>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+      <div class="flex justify-between w-full items-center">
+        <h1> 03. Construction Consultant</h1>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div
+      class="w-5/12 md:w-11/12 h-96 md:h-72 lg:h-[420px] bg-cover bg-center absolute md:relative left-0 md:left-12 top-10 md:-top-28 lg:-top-44 -z-10"
+      style="background-image: url(../asset/HOME/3a.svg);"></div>
+  </div>
+
+  <div class="mt-28 md:-mt-6 mx-4 md:mx-12 lg:mx-24 text-grayscale-50% relative">
+    <h1 class="text-xl font-semibold">Product</h1>
+    <div class="line w-8/12 md:w-5/12 h-[2px] bg-grayscale-50% mb-3 md:absolute md:top-3 md:left-24"></div>
+    <div class="md:mt-4 md:flex md:justify-between md:items-center md:w-full md:pr-5">
+      <h1 class="text-2xl lg:text-3xl w-11/12 md:w-4/12 mb-3">Choose your product themes.</h1>
+      <p class="w-9/12 md:w-4/12 lg:w-3/12 text-xs lg:text-sm md:text[5px] font-light text-grayscale-30% lg:mr-10">Find
+        the theme you want. If our
+        choice of theme is not
+        what
+        you want, you can customize it as you want.</p>
+    </div>
+    <div class="w-full py-8 md:py-4 my-5 lg:mt-14 flex flex-col gap-6 lg:gap-10 text-grayscale-50%">
+      <div class="flex justify-between w-11/12 items-start">
+        <h1 class="lg:text-2xl"> 01.</h1>
+        <div class="w-10/12 text-grayscale-50%">
+          <h1 class=" md:text-xl lg:text-4xl md:mb-3 lg:mb-6 font-semibold">Vintage</h1>
+          <p class="text-xs lg:text-lg font-light">the use of simple and limited elements to get the best effect or
+            impression.</p>
+        </div>
+      </div>
+      <div class="flex justify-between w-11/12 items-start">
+        <h1 class="lg:text-2xl"> 02.</h1>
+        <div class="w-10/12 text-grayscale-50%">
+          <h1 class=" md:text-xl lg:text-4xl md:mb-3 font-semibold">Minimalist</h1>
+          <p class="text-xs lg:text-lg font-light">the use of simple and limited elements to get the best effect or
+            impression.</p>
+        </div>
+      </div>
+      <div class="flex justify-between w-11/12 items-start">
+        <h1 class="lg:text-2xl"> 03.</h1>
+        <div class="w-10/12 text-grayscale-50%">
+          <h1 class=" md:text-xl lg:text-4xl md:mb-3 font-semibold">Modern</h1>
+          <p class="text-xs lg:text-lg font-light">the use of simple and limited elements to get the best effect or
+            impression.</p>
+        </div>
+      </div>
+      <div class="flex justify-between w-11/12 items-start">
+        <h1 class="lg:text-2xl"> 04.</h1>
+        <div class="w-10/12 text-grayscale-50%">
+          <h1 class=" md:text-xl lg:text-4xl md:mb-3 font-semibold">Transitional</h1>
+          <p class="text-xs lg:text-lg font-light">the use of simple and limited elements to get the best effect or
+            impression.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-12 md:my-20 md:mt-28 mx-4 md:mx-12 lg:mx-24 text-grayscale-50% relative">
+    <h1 class="text-xl font-semibold">Material</h1>
+    <div class="line w-8/12 md:w-5/12 md:absolute md:top-3 md:left-24 h-[2px] bg-grayscale-50% mb-3"></div>
+    <h1 class="text-2xl lg:text-3xl w-11/12 md:w-4/12 md:mt-4 mb-3 lg:mb-10">choice of materials for quality furniture.
+    </h1>
+    <p class="w-9/12 md:w-5/12 lg:w-4/12 text-xs font-light text-grayscale-30% mb-6 md:mb-7 lg:mb-10">You can custom the
+      material as desired.
+      And our
+      furniture
+      uses the best materials and selected quality materials.</p>
+    <a href="#"
+      class="px-3 py-2 md:px-4 md:py-2 lg:px-6 lg:py-3 shadow-md text-grayscale-50% hover:bg-primary hover:text-white transition-all mb-10">See
+      Materials</a>
+    <div class="mt-6 relative md:absolute md:right-0 md:w-7/12 lg:w-6/12 md:top-0 md:flex md:justify-between">
+      <div class="w-full md:w-6/12 h-96 md:h-60 lg:h-80 bg-cover bg-center"
+        style="background-image: url(../asset/HOME/4a.svg);">
+      </div>
+      <div
+        class=" w-10/12 md:w-6/12 p-3 bg-white absolute md:relative inset-0 top-52 md:-top-20 md:flex md:flex-col md:gap-3">
+        <div class="w-full md:w-11/12 h-32 md:h-40 lg:h-48 bg-cover bg-center"
+          style="background-image: url(../asset/HOME/6a.svg);"></div>
+        <div class="w-full md:w-9/12 h-32 lg:h-40 bg-cover bg-center"
+          style="background-image: url(../asset/HOME/5a.svg);"></div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="mt-44 bg-primary text-white flex flex-col md:flex-row md:justify-between py-14 md:py-8 lg:py-16 px-4 md:px-12 lg:px-24 items-center gap-y-4 md:gap-x-0">
+    <h1 class="text-2xl lg:text-3xl md:w-6/12 text-center md:text-start">let's discuss making your interior like a dream
+      place!</h1>
+    <div class="w-6/12 lg:w-5/12 flex flex-col items-center md:items-start">
+      <p class="text-sm md:text-xs lg:text-lg font-light text-center md:text-start">Contact us below to work together to
+        build your
+        amazing interior</p>
+      <a href="./pages/contact.html"
+        class="px-3 py-2 bg-white hover:bg-primary text-primary hover:text-white hover:font-bold hover:shadow-md md:text-xs lg:text-sm lg:font-light mt-5 md:mt-2">Contact
+        Us</a>
+    </div>
+  </div>
+
+  <footer
+    class="mx-4 md:mx-12 lg:mx-24 mt-10  md:mt-16 lg:mt-20 pb-10 lg:pb-16 text-grayscale-50% md:flex md:justify-between md:items-center">
+    <div class="md:w-5/12">
+      <h1 class="text-lg lg:text-2xl font-semibold tracking-wider md:mb-4">PNGKY</h1>
+      <p class="text-2xl lg:text-3xl font-semibold mb-5">One of the best furniture agency.</p>
+    </div>
+    <div class="w-9/12 md:w-5/12 flex flex-col gap-2">
+      <p class="text-xs lg:text-sm"> Enter your email to get the laterst news</p>
+      <input type="text" class="w-full border md:border-none md:shadow px-2 py-1" placeholder="Email Here...">
+      <p class="mt-4 lg:mt-5 md:self-end lg:self-start md:text-sm lg:text-lg">Follow Us On</p>
+      <div class="flex gap-5 lg:gap-10 md:self-end lg:self-start mt-3">
+        <i class="fa-brands fa-facebook-f hover:scale-150 hover:shadow-md transition-all"></i>
+        <i class="fa-brands fa-instagram hover:scale-150 hover:shadow-md transition-all"></i>
+        <i class="fa-brands fa-tiktok hover:scale-150 hover:shadow-md transition-all"></i>
+        <i class="fa-brands fa-youtube hover:scale-150 hover:shadow-md transition-all"></i>
+      </div>
+    </div>
+  </footer> -->
+
+  <script src="./pages/script.js"></script>
+
+</body>
+
+</html>
